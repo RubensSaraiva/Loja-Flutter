@@ -17,7 +17,7 @@ class PaymentDialog extends StatelessWidget {
   Widget build(BuildContext context) {
     return Dialog(
       shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(20),
+        borderRadius: BorderRadius.circular(19),
       ),
       child: Stack(
         alignment: Alignment.center,
@@ -68,7 +68,7 @@ class PaymentDialog extends StatelessWidget {
                 OutlinedButton.icon(
                   style: OutlinedButton.styleFrom(
                     shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(20),
+                      borderRadius: BorderRadius.circular(19),
                     ),
                     side: const BorderSide(
                       width: 2,

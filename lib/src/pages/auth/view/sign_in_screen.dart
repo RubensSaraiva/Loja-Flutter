@@ -110,7 +110,7 @@ class SignInScreen extends StatelessWidget {
                             return ElevatedButton(
                               style: ElevatedButton.styleFrom(
                                 shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(18),
+                                  borderRadius: BorderRadius.circular(19),
                                 ),
                               ),
                               onPressed: authController.isLoading.value
@@ -201,7 +201,7 @@ class SignInScreen extends StatelessWidget {
                         child: OutlinedButton(
                           style: OutlinedButton.styleFrom(
                             shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(18),
+                              borderRadius: BorderRadius.circular(19),
                             ),
                             side: const BorderSide(
                               width: 2,

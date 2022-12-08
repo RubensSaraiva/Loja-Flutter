@@ -117,7 +117,7 @@ class SignUpScreen extends StatelessWidget {
                               return ElevatedButton(
                                 style: ElevatedButton.styleFrom(
                                   shape: RoundedRectangleBorder(
-                                    borderRadius: BorderRadius.circular(18),
+                                    borderRadius: BorderRadius.circular(19),
                                   ),
                                 ),
                                 onPressed: authController.isLoading.value

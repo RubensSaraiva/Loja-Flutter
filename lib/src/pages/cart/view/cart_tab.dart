@@ -108,7 +108,7 @@ class _CartTabState extends State<CartTab> {
                         style: ElevatedButton.styleFrom(
                           primary: CustomColors.customSwatchColor,
                           shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(18),
+                            borderRadius: BorderRadius.circular(19),
                           ),
                         ),
                         onPressed: (controller.isCheckoutLoading ||
@@ -151,7 +151,7 @@ class _CartTabState extends State<CartTab> {
       builder: (context) {
         return AlertDialog(
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(20),
+            borderRadius: BorderRadius.circular(19),
           ),
           title: const Text('Confirmação'),
           content: const Text('Deseja realmente concluir o pedido?'),
@@ -165,7 +165,7 @@ class _CartTabState extends State<CartTab> {
             ElevatedButton(
               style: ElevatedButton.styleFrom(
                 shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(20),
+                  borderRadius: BorderRadius.circular(19),
                 ),
               ),
               onPressed: () {

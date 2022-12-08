@@ -173,7 +173,7 @@ class _HomeTabState extends State<HomeTab> {
                               child: CustomShimmer(
                                 height: 20,
                                 width: 80,
-                                borderRadius: BorderRadius.circular(20),
+                                borderRadius: BorderRadius.circular(19),
                               ),
                             ),
                           ),
@@ -238,7 +238,7 @@ class _HomeTabState extends State<HomeTab> {
                             (index) => CustomShimmer(
                               height: double.infinity,
                               width: double.infinity,
-                              borderRadius: BorderRadius.circular(20),
+                              borderRadius: BorderRadius.circular(19),
                             ),
                           ),
                         ),

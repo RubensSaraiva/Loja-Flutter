@@ -47,7 +47,7 @@ class _ItemTileState extends State<ItemTile> {
             elevation: 1,
             shadowColor: Colors.grey.shade300,
             shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(20),
+              borderRadius: BorderRadius.circular(19),
             ),
             child: Padding(
               padding: const EdgeInsets.all(12),

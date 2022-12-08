@@ -76,7 +76,7 @@ class _ProfileTabState extends State<ProfileTab> {
                   color: Colors.green,
                 ),
                 shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(20),
+                  borderRadius: BorderRadius.circular(19),
                 ),
               ),
               onPressed: () {
@@ -100,7 +100,7 @@ class _ProfileTabState extends State<ProfileTab> {
       builder: (context) {
         return Dialog(
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(20),
+            borderRadius: BorderRadius.circular(19),
           ),
           child: Stack(
             children: [
@@ -169,7 +169,7 @@ class _ProfileTabState extends State<ProfileTab> {
                         child: Obx(() => ElevatedButton(
                               style: ElevatedButton.styleFrom(
                                 shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(20),
+                                  borderRadius: BorderRadius.circular(19),
                                 ),
                               ),
                               onPressed: authController.isLoading.value

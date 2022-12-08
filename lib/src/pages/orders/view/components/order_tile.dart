@@ -21,7 +21,7 @@ class OrderTile extends StatelessWidget {
   Widget build(BuildContext context) {
     return Card(
       shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(20),
+        borderRadius: BorderRadius.circular(19),
       ),
       child: Theme(
         data: Theme.of(context).copyWith(dividerColor: Colors.transparent),
@@ -126,7 +126,7 @@ class OrderTile extends StatelessWidget {
                         child: ElevatedButton.icon(
                           style: ElevatedButton.styleFrom(
                             shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(20),
+                              borderRadius: BorderRadius.circular(19),
                             ),
                           ),
                           onPressed: () {
